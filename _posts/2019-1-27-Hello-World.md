@@ -3,10 +3,10 @@ layout: post
 title: Do it! Vue.js 입문
 ---
 
-◾title
+◾책 제목  
 Do it! Vue.js 입문
 
-◾chapter
+◾챕터  
 1. Vue.js 소개
 2. 개발 환경 설정 및 첫 번째 프로젝트
 3. 화면을 개발하기 위한 필수 단위
