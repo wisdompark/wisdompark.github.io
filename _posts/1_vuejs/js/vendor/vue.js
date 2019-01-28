@@ -9,7 +9,7 @@ var cmp = {
 //첫번째 인스턴스
 new Vue({
   el : '#app',
-  components:{
+  components : {
     'todo-list' : cmp
   }
 });
