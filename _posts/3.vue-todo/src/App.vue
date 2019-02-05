@@ -1,5 +1,10 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <TodoHeader></TodoHeader>
+    <TodoInput></TodoInput>
+    <TodoList></TodoList>
+    <TodoFooter></TodoFooter>
+  </div>
 </template>
 <script>
 import TodoHeader from '/components/TodoHeader.vue'
