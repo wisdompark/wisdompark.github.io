@@ -2,10 +2,10 @@
 <template>
   <section>
     <ul>
-      <li v-for="todoItem in todoItems" class="shadow">
+      <li v-for="(todoItem, index) in propsdata" class="shadow">
         <i class="checkBtn fas fa-check" aria-hidden="true"></i>
         {{todoItem}}
-      <span class="removeBtn" type="button" @click="removeTodo(todoItem, index)">
+        <span class="removeBtn" type="button" @click="removeTodo(todoItem, index)">
         <i class="far fa-trash-alt" area-hidden="true"></i>
       </span>
       </li>
@@ -14,34 +14,23 @@
 </template>
 <script>
 export default{
-  data(){
-    return{
-      todoItems : []
-    }
-  },
-  created(){
-    if(localStorage.length > 0){
-      for(var i=0; i<localStorage.length; i++){
-        this.todoItems.push(localStorage.key(i));
-      }
-    }
-  },
+  props:['propsdata'],
   methods : {
-    removeTodo(){
-      console.log('clicked');
+    removeTodo(todoItem, index){
+      this.$emit('removeTodo', todoItem, inex)
     }
   }
 }
 </script>
 <style scoped>
   ul{
-    list-style-type : none; //목록 아이템의 스타일 지정
+    list-style-type : center;
     padding-left : 0px;
     margin-top: 0;
     text-align : left;
   }
   li{
-    display : flex; //비율 기준의 레이아웃 방식인 flex 지정
+    display : flex;
     min-height : 50px;
     height : 50px;
     line-height : 50px;

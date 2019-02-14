@@ -44,8 +44,8 @@ export default{
     addTodo(){
       if(this.newTodoItem !== ""){
         var value = this.newTodoItem && this.newTodoItem.trim(); //입력된 텍스트의 앞뒤 공백 문자열 제거
-        localStorage.setItem(value, value); //키-밸류 모두 입력받은 텍스트로 지정
-        this.clearInput();//인풋 박스의 입력 값을 초기}
+        this.$emit('addTodo', value);
+        this.clearInput();//인풋 박스의 입력 값을 초기화
      }
    },
     clearInput(){
