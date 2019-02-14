@@ -9,7 +9,7 @@ title: 2019 wisdompark 성장 만다라트 차트
 [[그림2]](https://wisdompark.github.io/images/2019_만다라트캡쳐_V2.0.PNG)    
 [[그림1]](https://wisdompark.github.io/images/2019_만다라트캡쳐.PNG)      
 
-◾수정내역
+◾기록
 
 ◾git 연결하기
 1. git init
