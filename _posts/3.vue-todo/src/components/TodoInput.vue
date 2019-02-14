@@ -5,6 +5,13 @@
     <span class="addContainer" v-on:click="addTodo">
       <i class="addBtn fa fa-plus" area-hidden="true"></i>
     </span>
+    <modal v-if="showModal" @close="showModal=false">
+      <h3 slot="header">경고</h3>
+      <span slot="footer" @click="showModal=false">
+        할 일을 입력하세요.
+        <i class="closeModalBtn fas fa-times" area-hidden="true"></i>
+      </span>
+    </modal>
   </div>
 </template>
 <style scoped>
@@ -34,10 +41,14 @@
   }
 </style>
 <script>
+import Modal from './common/Modal.vue'
+
 export default{
+  props: ['propsdata'],
   data(){
     return{
-      newTodoItem : ''
+      newTodoItem : '',
+      showModal : false //모달동작을 위한 플래그 값
     }
   },
   methods : {
@@ -46,11 +57,16 @@ export default{
         var value = this.newTodoItem && this.newTodoItem.trim(); //입력된 텍스트의 앞뒤 공백 문자열 제거
         this.$emit('addTodo', value);
         this.clearInput();//인풋 박스의 입력 값을 초기화
+     }else{
+       this.showModal = !this.showModal;
      }
    },
     clearInput(){
       this.newTodoItem = '';
     }
+  },
+  components:{
+    Modal : Modal
   }
 }
 </script>

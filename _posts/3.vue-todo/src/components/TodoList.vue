@@ -1,15 +1,15 @@
 <!--할 일 목록 표시 및 특정 할 일 삭제-->
 <template>
   <section>
-    <ul>
-      <li v-for="(todoItem, index) in propsdata" class="shadow">
+    <transition-group name="list" tag="ul">
+      <li v-for="(todoItem, index) in propsdata" class="shadow" :key="todoItem">
         <i class="checkBtn fas fa-check" aria-hidden="true"></i>
         {{todoItem}}
         <span class="removeBtn" type="button" @click="removeTodo(todoItem, index)">
         <i class="far fa-trash-alt" area-hidden="true"></i>
       </span>
       </li>
-    </ul>
+    </transition-group>
   </section>
 </template>
 <script>
@@ -17,7 +17,7 @@ export default{
   props:['propsdata'],
   methods : {
     removeTodo(todoItem, index){
-      this.$emit('removeTodo', todoItem, inex)
+      this.$emit('removeTodo', todoItem, index)
     }
   }
 }
@@ -47,5 +47,12 @@ export default{
   .removeBtn{
     margin-left : auto;
     color : #de4343;
+  }
+  .list-enter-active, .list-leave-active{
+    transition: all 1s;
+  }
+  .list-enter, .list-leave-to{
+    opacity : 0;
+    transform : translateY(30px);
   }
 </style>
