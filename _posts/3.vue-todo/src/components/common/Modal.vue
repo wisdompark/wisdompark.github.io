@@ -13,7 +13,6 @@
 
             <div class="modal-body">
               <slot name="body">
-                
               </slot>
             </div>
 
