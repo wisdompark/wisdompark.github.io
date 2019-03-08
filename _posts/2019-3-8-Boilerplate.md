@@ -10,7 +10,8 @@ In computer programming, boilerplate code or just boilerplate refers to sections
 - 출처: www.terms.co.kr
 >
 
-## *"보일러 플레이트의 핵심은 반복되지만 자주 쓰이는 형태를 자동화 한다."*
+## *"보일러 플레이트의 핵심은   
+반복되지만 자주 쓰이는 형태를 자동화 한다."*
 
 ## ◾참고링크
 
