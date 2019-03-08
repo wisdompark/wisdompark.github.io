@@ -11,8 +11,7 @@ In computer programming, boilerplate code or just boilerplate refers to sections
 - 출처: www.terms.co.kr
 >
 
-### *"재사용 가능하고 적은 수정만으로 여러 곳에 활용 가능한 소스코드이다.  
-보일러 플레이트의 핵심은 반복되지만 자주 쓰이는 형태를 자동화 하는 것이다."*
+### *"재사용 가능하고 적은 수정만으로 여러 곳에 활용 가능한 소스코드이다. 보일러 플레이트의 핵심은 반복되지만 자주 쓰이는 형태를 자동화 하는 것이다."*
 
 ## ◾참고링크
 1.[Wiki - boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code)
