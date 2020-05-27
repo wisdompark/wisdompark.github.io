@@ -6,8 +6,11 @@ title:  스프링부트와 AWS로 혼자 구현하는 웹서비스(어디부터 
 ◾ 스프링부트와 AWS로 혼자 구현하는 웹서비스 
 
 
-[[그림1]](https://wisdompark.github.io/images/2020_캡처.PNG)
-[[그림2]](https://wisdompark.github.io/images/2020_캡처1.PNG)
+[[그림1]]
+![_config.yml]({{site.baseurl}}/images/2020_캡처.PNG)
+[[그림2]]
+![_config.yml]({{site.baseurl}}/images/2020_캡처1.PNG)
+
 
 
 FAILURE: Build failed with an exception.
