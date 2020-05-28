@@ -55,9 +55,9 @@ title:  스프링부트와 AWS로 혼자 구현하는 웹서비스(롬복아)
 
    인텔리제이에서 alt+F12  누르고 해당 프로젝트 기준으로 터미널이 열리는데, 거기서 아래 명령어를 실행
 
-   ```
-   gradlew wrapper --gradle-version 4.10.2
-   ```
+   
+
+   > gradlew wrapper --gradle-version 4.10.2
 
 
 
