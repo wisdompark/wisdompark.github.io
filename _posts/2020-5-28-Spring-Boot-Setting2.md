@@ -37,9 +37,7 @@ title:  스프링부트와 AWS로 혼자 구현하는 웹서비스(롬복아)
 >   BUILD FAILED in 20s
 >   2 actionable tasks: 1 executed, 1 up-to-date
 >
->   
-
-BUILD FAILED in 391ms
+>   BUILD FAILED in 391ms
 
 
 
