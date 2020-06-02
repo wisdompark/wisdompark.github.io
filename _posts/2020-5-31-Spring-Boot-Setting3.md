@@ -31,9 +31,9 @@ cmd에서 직접 중단 시켜준다
 
 1. *cmd를 실행*
 2. *8080에서 사용중인 프로세스(PID)를 확인한다.*
-   - *netstat -ano | findstr 8080*
+   - netstat -ano | findstr 8080
 3. *task kill을 이용하여 프로세스를 중단한다.*
-   - *taskkill /f/pid {PIDNUMBER}*
+   - taskkill /f /pid {PIDNUMBER}
 
 
 
