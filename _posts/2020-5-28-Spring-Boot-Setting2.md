@@ -64,4 +64,4 @@ title:  스프링부트와 AWS로 혼자 구현하는 웹서비스(롬복아)
 ## ◾참고링크
 
 1. 책 펴낸이 사이트 질의글..
-   https://www.daleseo.com/lombok-popular-annotations/
+   [https://www.daleseo.com/lombok-popular-annotations/](https://www.daleseo.com/lombok-popular-annotations/)
