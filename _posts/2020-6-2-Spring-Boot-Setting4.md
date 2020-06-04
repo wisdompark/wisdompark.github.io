@@ -13,7 +13,7 @@ Application.main() 을 실행해서 http:localhost:8080/h2-console을 접속하�
 
 서버는 떠있지만 페이지 매핑을 못해서 에러페이지로 Spring boot에서 띄워준 것.
 
-![404](D:\wisdom_git\images\404.PNG)
+![404](..\images\404.PNG)
 
 
 
@@ -33,7 +33,7 @@ spring.h2.console.enabled=true
 
 *반갑다 h2-console!!!*
 
-## ![h2console](D:\wisdom_git\images\h2console.PNG)
+## ![h2console](..\images\h2console.PNG)
 
 
 
