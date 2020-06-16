@@ -33,5 +33,4 @@ Edit Custom VM Option 클릭한다.
 
 ## ◾참고링크
 
-1. [**Intellij output 한글 깨지는 문제**](https://freehoon.tistory.com/146)
-   https://freehoon.tistory.com/146
+1. Intellij output 한글 깨지는 문제 https://freehoon.tistory.com/146
